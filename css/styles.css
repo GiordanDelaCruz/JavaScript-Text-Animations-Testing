@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+span{
+  display: inline-block;
+  transform: translateY(50px);
+  transition: all 0.9s ease;
+  opacity: 0;
+
+}
+
+.fancy{
+  font-family: sans-serif;
+  font-size: 3.6rem;
+  line-height: 100vh;
+  text-align: center;
+}
+
+.white-space{
+  white-space: pre;
+}
+
+.waveIn{
+  opacity: 1;
+  transform: translateY(0px);
+}
